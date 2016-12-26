@@ -147,7 +147,7 @@ OnlyCheck="off"
 
 
 
-如发现bug，欢迎随时联系caobinbupt@foxmail.com
+如发现bug，欢迎随时联系caobinbupt@foxmail.com，或加我微信号 lanzbupt
 
 参考:
 https://github.com/loveshell/ngx_lua_waf
