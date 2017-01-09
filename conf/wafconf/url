@@ -1,7 +1,8 @@
 \.(svn|htaccess|mysql_history|bash_history|git|DS_Store|idea)
 \.(bak|inc|old|mdb|sh|sql|backup|java|class)$
-(vhost|bbs|host|wwwroot|www|site|root|hytop|web).*\.(rar|xml|zip|tar\.gz|tar)
-(phpmyadmin|jmx-console|jmxinvokerservlet)
+(vhost|bbs|host|wwwroot|www|site|root|backup|data|website|web).*\.(rar|xml|sql|zip|tar\.gz|tar)
+(phpmyadmin|elastic|jmx-console|jmxinvokerservlet)
 java\.lang
 CVS/Entries$
+(manager|host-manager)/html$
 /(attachments|upimg|images|css|uploadfiles|html|uploads|templets|static|template|data|inc|forumdata|upload|includes|cache|avatar)/(\\w+).(php|jsp)
