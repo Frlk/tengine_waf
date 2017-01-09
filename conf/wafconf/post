@@ -1,9 +1,9 @@
 select.+(from|limit)
 (?:(union(.*?)select))
-/\*(.*?)\*/
-\bor\b.*=
-\band\b.*=
-having|rongjitest
+/\*|--
+\b(or|xor)\b.*(=|<|>|'|")
+\band\b.*(=|<|>|'|")
+having|load_file
 sleep\((\s*)(\d*)(\s*)\)
 benchmark\((.*)\,(.*)\)
 base64_decode\(
