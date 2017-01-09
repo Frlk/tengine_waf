@@ -1,6 +1,9 @@
 \.\./
 \:\$
 \$\{
+/\*(.*?)\*/
+\bor\b.*=
+\band\b.*=
 select.+(from|limit)
 (?:(union(.*?)select))
 having|rongjitest
