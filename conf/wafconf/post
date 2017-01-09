@@ -1,5 +1,8 @@
 select.+(from|limit)
 (?:(union(.*?)select))
+/\*(.*?)\*/
+\bor\b.*=
+\band\b.*=
 having|rongjitest
 sleep\((\s*)(\d*)(\s*)\)
 benchmark\((.*)\,(.*)\)
