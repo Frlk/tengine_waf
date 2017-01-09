@@ -1,8 +1,7 @@
 select.+(from|limit)
 (?:(union(.*?)select))
 /\*|--
-\b(or|xor)\b.*(=|<|>|'|")
-\band\b.*(=|<|>|'|")
+\b(or|xor|and)\b.*(=|<|>|'|")
 having|load_file
 sleep\((\s*)(\d*)(\s*)\)
 benchmark\((.*)\,(.*)\)
