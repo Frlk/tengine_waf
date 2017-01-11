@@ -1,8 +1,9 @@
 \.(svn|htaccess|mysql_history|bash_history|git|DS_Store|idea)
-\.(bak|inc|old|mdb|sh|sql|backup|java|class)$
-(vhost|bbs|host|wwwroot|www|site|root|backup|data|website|web).*\.(rar|xml|sql|zip|tar\.gz|tar)
+\.(bak|inc|old|mdb|sh|sql|log|php~|swp|backup|java|class)$
+(vhost|bbs|host|wwwroot|www|site|root|backup|data|ftp|db|admin|website|web).*\.(rar|xml|sql|zip|tar\.gz|tar)
 (phpmyadmin|elastic|jmx-console|jmxinvokerservlet)
 java\.lang
-CVS/Entries$
+/CSV/
+/(phpinfo|hack|shell|spy|phpspy)\.php$
 (manager|host-manager)/html$
 /(attachments|upimg|images|css|uploadfiles|html|uploads|templets|static|template|data|inc|forumdata|upload|includes|cache|avatar)/(\\w+).(php|jsp)
